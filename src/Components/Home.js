@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef } from "react";
+import React, { useContext } from "react";
 import { Data } from "../App";
 import Card from "./Card";
 import { v4 as uuidv4 } from "uuid";
