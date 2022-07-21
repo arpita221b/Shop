@@ -20,23 +20,23 @@ const Home = () => {
       <a style={{ display: "none" }} href="https://storyset.com/marketing">
         Marketing illustrations by Storyset
       </a>
-      <div className=" justify-between flex w-3/4 m-auto ">
-        <div className=" my-20  w-1/2 t font-montserrat text-slate-100 ">
-          <p className="leading-relaxed font-bold text-6xl">
-            Welcome to the <span className="text-violet-500">FakeShop!!</span>
+      <div className=" justify-between flex flex-col-reverse items-center lg:flex-row w-3/4 m-auto ">
+        <div className="text-center lg:text-left  my-20 w-1/2 font-montserrat text-slate-100 ">
+          <p className="leading-relaxed font-bold text-3xl sm:text-4xl md:text-6xl">
+            Welcome to the <p className=" text-violet-500">FakeShop!!</p>
           </p>
-          <div className="my-10 border-l-4 w-60 border-violet-500 text-slate-100 pl-3">
+          <div className="text-center lg:text-left my-10 mx-auto lg:mx-0 border-l-4 w-30 md:w-60 border-violet-500 text-slate-100 pl-3">
             <Eclipse cname="top-2/4 left-40 " />
             <p>
               We present you wide variety of products that you won’t find
               anywhere else.
             </p>
           </div>
-          <div className="my-20">
-            <Button>Explore</Button>
+          <div className="my-20 md:text-center lg:text-left">
+            <Button cname="w-32 md:w-56 px-4 ">Explore</Button>
           </div>
         </div>
-        <div className="my-10">
+        <div className="my-10 ">
           <Image />
         </div>
       </div>
