@@ -15,7 +15,7 @@ const ProductDetails = () => {
       setproductDetails(details);
       console.log(details);
     }
-  }, []);
+  }, [params.id]);
 
   return (
     <div className="w-3/4 font-montserrat flex flex-col md:flex-row i m-auto cursor-pointer md:justify-between bg-blue-900 rounded-3xl p-20">

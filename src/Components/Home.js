@@ -33,14 +33,19 @@ const Home = () => {
             </p>
           </div>
           <div className="my-20 md:text-center lg:text-left">
-            <Button cname="w-32 md:w-56 px-4 ">Explore</Button>
+            <Button href="#products" cname="w-32 md:w-56 px-4 ">
+              Explore
+            </Button>
           </div>
         </div>
         <div className="my-10 ">
           <Image />
         </div>
       </div>
-      <div className="flex flex-wrap justify-around  m-auto w-3/4">
+      <div
+        id="products"
+        className="flex flex-wrap justify-around  m-auto w-3/4"
+      >
         {products.map((product) => (
           <Card key={uuidv4()} product={product} />
         ))}
